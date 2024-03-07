@@ -186,3 +186,23 @@ body {
     border-bottom: 1px solid var(--Light-Grey);
     padding: .6rem 0 .6rem 1.5rem;
 }
+
+@media (max-width: 400px) {
+    .recipe-card {
+        margin: 0;
+        border-radius: 0;
+        padding: 0;
+    }
+
+    .recipe-card img {
+        border-radius: 0;
+    }
+
+    .recipe-card .info,
+    .recipe-card .ul1,
+    .recipe-card .ul-ingredients,
+    .recipe-card .ul-instruction,
+    .recipe-card .table-nutrition {
+        margin: 0 1.5rem;
+    }
+}
