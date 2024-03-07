@@ -58,5 +58,35 @@ body {
     font-family: "Outfit";
 }
 
+.bold-text {
+    font-weight: bold;
+}
 
+.ul1 {
+    background: var(--Rose-White);
+    padding:1.4rem;
+    border-radius: 12px;
+    font-family: "Outfit";
+}
 
+.ul1 h2{
+    font-size: 1.2rem;
+    color: var(--Dark-Raspberry);
+    margin-top: 0;
+}
+
+.ul1 ul {
+    margin: 0;
+    color: var(--Wenge-Brown);
+    font-size: .9rem;
+}
+
+.ul1 ul li{
+    padding-inline-start: 1rem;
+    margin-block: .6rem;
+}
+
+.ul1 ul li::marker {
+    color: var(--Dark-Raspberry);
+    font-size: .7rem;
+}
