@@ -26,6 +26,7 @@ body {
     background: var(--Eggshell);
     display: grid;
     place-content: center;
+    min-width: 375px;
 }
 
 .recipe-card {
@@ -117,4 +118,39 @@ body {
 .ul-ingredients ul li::marker {
     color: var(--Dark-Raspberry);
     font-size: .7rem;
+}
+
+
+.ul-instruction {
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--Light-Grey);
+}
+
+.ul-instruction h2{
+    font-size: 1.8rem;
+    color: var(--Nutmeg);
+    font-weight: 500;
+}
+
+.ul-instruction ul {
+    color: var(--Wenge-Brown);
+    font-size: .9rem;
+    padding-inline-start: 1.5rem;
+    font-family: "Outfit";
+    list-style-type: decimal;
+}
+
+.ul-instruction ul li {
+    padding-inline-start: 1rem;
+    margin-block: .7rem;
+}
+
+.ul-instruction ul li::marker {
+    color: var(--Dark-Raspberry);
+    font-weight: bold;
+}
+
+.ul-instruction {
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--Light-Grey);
 }
