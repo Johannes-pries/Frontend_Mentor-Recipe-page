@@ -154,3 +154,35 @@ body {
     padding-bottom: 1.5rem;
     border-bottom: 1px solid var(--Light-Grey);
 }
+
+.table-nutrition h2 {
+    font-size: 1.8rem;
+    color: var(--Nutmeg);
+    font-weight: 500;
+}
+
+.table-nutrition p {
+    color: var(--Wenge-Brown);
+    font-size: .9rem;
+    font-family: "Outfit";
+}
+
+.table-nutrition table {
+    width: 100%;
+    text-align: left;
+    font-family: "Outfit";
+}
+
+.table-nutrition tr td:first-child {
+    color: var(--Wenge-Brown);
+}
+
+.table-nutrition tr td:last-child {
+    color: var(--Nutmeg);
+    font-weight: bold;
+}
+
+.table-nutrition td {
+    border-bottom: 1px solid var(--Light-Grey);
+    padding: .6rem 0 .6rem 1.5rem;
+}
