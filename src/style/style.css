@@ -188,6 +188,11 @@ body {
     width: 100%;
     text-align: left;
     font-family: "Outfit";
+    border-collapse: collapse;
+}
+
+.table-nutrition td {
+    padding: .6rem 0 .6rem 1.5rem;
 }
 
 .table-nutrition tr td:first-child {
@@ -199,9 +204,9 @@ body {
     font-weight: bold;
 }
 
-.table-nutrition td {
+.table-nutrition tr:not(:last-child) {
     border-bottom: 1px solid var(--Light-Grey);
-    padding: .6rem 0 .6rem 1.5rem;
+    
 }
 
 /* Didn't know how to set the img padding in recipe-card
